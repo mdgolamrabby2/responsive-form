@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conatiter">
+        <header>Registration Form</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name" required>
+                
+            </div>
+            <div class="input-box">
+                <label>Email address</label>
+                <input type="text" placeholder="Email" required>
+            </div>
+            <div class="column">
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input type="text" placeholder="Enter phoe Number" required>
+                </div>
+                <div class="input-box">
+                    <label>Birth Date</label>
+                    <input type="text" placeholder="Enter Birth Date" required>
+                </div>
+            </div>
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender" checked>
+                        <label for="check-male">Male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender">
+                        <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender">
+                        <label for="check-other">Prefer not to say</label>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box address">
+                <label>password </label>
+                <input type="text" placeholder="Enter your password" required>
+                <input type="text" placeholder="Enter your conform" required>
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>Country</option>
+                            <option>Bangladesh</option>
+                            <option>Nepal</option>
+                            <option>India</option>
+                            <option>Japan</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Enter you city" required>
+                </div>
+                <!-- <input type="text" placeholder="Enter you city" required> -->
+                
+                <input type="text" placeholder="Select Country" required>
+                
+                <input type="text" placeholder="Enter you post code" required>
+            </div>
+            <button>Sumbit</button>
+
+        </form>
+    </div>
+</body>
+</html>
